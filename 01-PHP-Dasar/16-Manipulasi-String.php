@@ -18,7 +18,6 @@
     $valueFloat = (float)"55.55";
     var_dump($valueFloat);
 
-
     //Mengakses Karakter
     $fullName = "Muhammad Rizky";
     echo $fullName[4] . PHP_EOL;
