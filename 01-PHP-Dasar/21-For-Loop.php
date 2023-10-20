@@ -23,4 +23,17 @@
             echo "$x" . PHP_EOL;
         }
     }
+
+    $noAngkot = 1;
+    $jmlAngkot = 10;
+    $angkotBeroperasi = 5;
+
+    for($noAngkot; $noAngkot <= $jmlAngkot; $noAngkot++){
+        if($noAngkot <= $angkotBeroperasi){
+            echo "Angkot No-$noAngkot beroperasi dengan baik." . PHP_EOL;
+        } else {
+            echo "Angkot No-$noAngkot sedang tidak beroperasi dengan baik." . PHP_EOL;
+        }
+    }
+    
 ?>
