@@ -6,6 +6,9 @@
     );
     var_dump($students);
 
+    // Memanggil data tertentu
+    var_dump($students["id"]);
+
     $drinks = [
         "id_drink" => "ABC",
         "brand" => "Indomilk",

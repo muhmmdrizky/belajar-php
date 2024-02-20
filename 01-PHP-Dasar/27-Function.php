@@ -1,24 +1,30 @@
 <?php
-    function sayHello(){
-        echo "Hello hello" . PHP_EOL;
+function sayHello()
+{
+    echo "Hello hello" . PHP_EOL;
+}
+sayHello();
+
+echo "<br>";
+
+// ---------------------------
+
+$buatFunction = true;
+
+if ($buatFunction) {
+    function hallo($name)
+    {
+        echo "Selamat datang, $name" . PHP_EOL;
     }
-    sayHello();
+}
+hallo("Rizky");
 
-    // ---------------------------
+echo "<br>";
 
-    $buatFunction = true;
-
-    if($buatFunction){
-        function hallo(){
-            echo "Selamat datang" . PHP_EOL;
-        }
-    }
-    hallo();
-
-    // ---------------------------
-    function perkalian($angkaPertama, $angkaKedua){
-        $hasil = $angkaPertama * $angkaKedua;
-        echo "Hasil dari $angkaPertama * $angkaKedua adalah: $hasil";
-    }
-    perkalian(5, 6);
-?>
+// ---------------------------
+function perkalian($angkaPertama, $angkaKedua)
+{
+    $hasil = $angkaPertama * $angkaKedua;
+    echo "Hasil dari $angkaPertama * $angkaKedua adalah: $hasil";
+}
+perkalian(5, 6);

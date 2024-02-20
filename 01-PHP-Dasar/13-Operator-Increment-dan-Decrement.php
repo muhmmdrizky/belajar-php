@@ -1,21 +1,21 @@
 <?php
     //Post increment
     $a = 5;
-    $b = $a++;
-    var_dump($b);
+    $a++;
+    var_dump($a);
 
     //Pre increment
-    $c = 5;
-    $d = ++$c;
-    var_dump($d);
+    $b = 5;
+    ++$b;
+    var_dump($b);
 
     //Post decrement
-    $e = 5;
-    $f = $e--;
-    var_dump($f);
+    $c = 5;
+    $c--;
+    var_dump($c);
 
     //Pre decrement
-    $g = 5;
-    $h = --$g;
-    var_dump($h);
+    $d = 5;
+    --$d;
+    var_dump($d);
 ?>
